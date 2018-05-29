@@ -21,7 +21,7 @@
     "image": "{{pillar['kube_docker_registry']}}/kube-apiserver:{{pillar['kube-apiserver_docker_tag']}}",
     "resources": {
       "requests": {
-        "cpu": "250m"
+        "cpu": "245m"
       }
     },
     "command": [
